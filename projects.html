@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prerana H Sulibhavi | Data Scientist</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0e9e9;
+            color: #333;
+        }
+    
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+    
+        h1 span {
+            margin-left: 10px;
+        }
+    
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+    
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+    
+        .header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    
+        .header .name {
+            margin: 0;
+            font-size: 18px;
+        }
+    
+        .header ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+    
+        .header li {
+            margin-left: 20px;
+        }
+    
+        .header a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    
+        /* Projects Container (Updated) */
+        .projects-container {
+            display: flex;
+            flex-direction: column;
+            /* Stack cards vertically */
+        }
+    
+        .project-card {
+            width: 100%;
+            /* Each card takes full width */
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 20px;
+            display: flex;
+        }
+    
+        .project-card img {
+            width: 30%;
+            height: 300px;
+            object-fit: cover;
+        }
+    
+        .project-card .content {
+            width: 70%;
+            padding: 20px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="name">
+            <span style="color: blue;">■</span> Prerana H Sulibhavi <span style="color: #777;">/ DATA SCIENTIST</span>
+        </div>
+        <ul>
+            <li><a href="index.html">ABOUT ME</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1><span style="color: blue;">■</span> <span>Projects</span></h1>
+
+        <p>Applying the learning to solve the real world use cases.</p>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <img src="static\ML.jpg" alt="ML">
+                <div class="content">
+                    <h2><span style="color: blue;">■</span> <span>Project Vending Using Machine Learning Algorithms</span></h2>
+                    <p></p>
+                    <p><i>Leveraged machine learning to enhance to map unique product keys to respective categories such as Manufacturer, Category, and Brand.</i></p>
+                    <p><b>Use Case:</b> Identified and classified products in vending machines using unique keys.
+                        <br><b>Techniques Used:</b> Applied Logistic Regression, SVM, and Gradient Boosting.
+                        <br><b>Outcome:</b> Reduced processing time from 3 weeks to 1 hour, achieving 95% accuracy and streamlining inventory management.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="static\lbf.jpg" alt="Loss Base Function">
+                <div class="content">
+                    <h2><span style="color: blue;">■</span> <span>Loss-Based Function for Coefficient Stability</span></h2>
+                    <p><b>Use Case:</b> Refine model coefficients for improved accuracy and stability in scenarios with limited data.</p>  
+                    <p><b>Technique:</b> Applied iterative refinement with user-defined deviations and empirical priors. Analyzed 32 datasets using an 80/20 train/test split.</p>
+                    <p><b>Outcome:</b> Enhanced model robustness and accuracy, integrating prior knowledge to ensure reliable predictions, validated with metrics like r-squared, MAPE, and p-values.  </p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="static\MMM.jpg" alt="MMM">
+                <div class="content">
+                    <h2><span style="color: blue;">■</span> <span>Marketing Mix Modeling</span></h2>
+                    <p><b>Domain:</b> Ecommerce and CPG</p>
+                    <p><b>Use Case:</b> Analyzed marketing data to optimize media investments and improve ROI.</p>
+                    <p><b>Technique:</b> Performed data analysis to understand the impact of various marketing channels on sales and customer engagement.</p>
+                    <p><b>Outcome:</b> Provided actionable insights and recommendations for media investment strategy, enhancing marketing effectiveness and driving better financial outcomes.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="static/AI.jpg" alt="AI">
+                <div class="content">
+                    <h2><span style="color: blue;">■</span> <span>AI-Driven Data Enhancement and Interaction Solutions</span></h2>
+                    <p><b>Data Synthetic Controls:</b> Developed AI models using Google Gemini to standardize and clean country/city data by correcting spelling, removing duplicates, mapping pin codes, and identifying twin cities.</p>
+                    <p><b>PDF Chatbot Reader:</b> Created a chatbot to read and interact with PDF documents, allowing users to ask questions about the content. </p>               
+                    <p><b>Data Extraction:</b>Used APIs to extract and analyze data, such as weather and temperature, for enhanced insights.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="static/SA.jpg" alt="SENTIMENT ANALYSIS">
+                <div class="content">
+                    <h2><span style="color: blue;">■</span> <span>ASPECT-BASED SENTIMENTAL ANALYSIS OF
+                        STUDENTS REGARDING THE INDIAN EDUCATION
+                        SYSTEM</span></h2>
+                    <p><b>Use Case:</b> Sentiment analysis of student perspectives on the Indian Education System.</p>
+                    <p><b>Description:</b> Conducted an end-to-end survey-based analysis to explore aspects like course content, examinations, learning methods, and student stress using tools such as TextBlob, vectorization, clustering, and visualizations (WordCloud, treemap). Leveraged Python libraries (pandas, NumPy, matplotlib, NLTK, sklearn) for analysis.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="static/others.jpg" alt="Others">
+                <div class="content">
+                    <h2><span style="color: blue;">■</span> <span>Other Projects</span></h2>
+                    <p>-Dashboard Projects (Power BI and Excel)</p>
+                    <p>-Internet Data Usage Analysis: Service Provider Preferences and Market Share in India</p>
+                    <p>-Kalakart: E-Commerce Platform for Artists and Training Programs</p>
+                    <p>-Web Application for Bulk Upload to API</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
